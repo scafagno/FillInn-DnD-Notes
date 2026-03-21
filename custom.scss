@@ -48,3 +48,14 @@ article.home-grid {
   background-color: rgba(255, 255, 255, 0.15);
   color: white;
 }
+
+
+header .custom-navbar {
+  background: linear-gradient(to bottom, #8b1a1a, #6b1010) !important;
+  border-top: 2px solid #c0392b !important;
+  border-bottom: 2px solid #c0392b !important;
+}
+
+header .custom-navbar a {
+  color: #f4e8c1 !important;
+}
