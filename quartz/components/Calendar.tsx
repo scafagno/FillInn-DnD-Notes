@@ -1,6 +1,6 @@
-import { QuartzComponent, QuartzComponentProps } from "./types"
+import { QuartzComponentConstructor } from "./types"
 
-const Calendar: QuartzComponent = (_props: QuartzComponentProps) => {
+function Calendar() {
   return (
     <div class="calendar-widget">
       <h3>Calendario Sessioni</h3>
@@ -14,4 +14,6 @@ const Calendar: QuartzComponent = (_props: QuartzComponentProps) => {
   )
 }
 
-export default Calendar
+Calendar.displayName = "Calendar"
+
+export default (() => Calendar) satisfies QuartzComponentConstructor
