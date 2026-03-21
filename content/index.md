@@ -5,8 +5,7 @@ title: "Il Titolo del Sito"
 <div class="hero-header">
   <img src="/images/hero-placeholder.jpg" alt="Hero Image" class="hero-image"/>
   <div class="hero-text">
-    <h1>Il Titolo del Sito</h1>
-    <p>Il sottotitolo del sito</p>
+    <h3>Il sottotitolo del sito</h3>
   </div>
 </div>
 
