@@ -3,10 +3,10 @@ import { QuartzComponentConstructor } from "./types"
 function Navbar() {
   return (
     <nav class="custom-navbar">
-      <a href="/">Home</a>
-      <a href="/campagne">Campagne</a>
-      <a href="/calendario">Calendario</a>
-      <a href="/altro">Altro</a>
+      <a href="/FillInn-DnD-Notes/">Home</a>
+      <a href="/Campagne">Campagne</a>
+      <a href="/Calendario">Calendario</a>
+      <a href="/Altro">Altro</a>
     </nav>
   )
 }
