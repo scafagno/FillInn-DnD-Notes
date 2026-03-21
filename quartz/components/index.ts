@@ -22,10 +22,12 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Calendar from "./Calendar"
+import Navbar from "./Navbar"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 
 export {
+  Navbar
   Calendar,
   ArticleTitle,
   Content,
