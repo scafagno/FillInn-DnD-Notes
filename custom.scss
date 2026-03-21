@@ -10,7 +10,7 @@ body, p, li { font-family: 'EB Garamond', serif; }
 
 .hero-header { position: relative; margin-bottom: 2rem; }
 .hero-header .hero-image { width: 100%; max-height: 300px; object-fit: cover; }
-.hero-header .hero-text { position: absolute; bottom: 1rem; left: 1rem; color: white; font-weight: bold; }
+.hero-header .hero-text { bottom: 1rem; left: 1rem; color: white; font-weight: bold; }
 
 article.home-grid {
   display: grid !important;
