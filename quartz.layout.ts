@@ -7,7 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [Component.Navbar()],
   pageBody: [
     Component.ConditionalRender({
-      component: Component.RecentNotes(),
+      component: Component.RecentNotes({ title: "Ultime Note", limit: 3, filter: (f) => f.slug.startsWith("Campagne/Sessioni") }),
       condition: (page) => page.fileData.slug === "index",
     }),
   ],
