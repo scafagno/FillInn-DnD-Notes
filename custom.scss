@@ -23,30 +23,22 @@ article.home-grid {
   border-radius: 8px;
   width: 100%;
 }
-.custom-navbar {
+#quartz-body .center header nav.custom-navbar {
   display: flex !important;
-  justify-content: flex-start !important;
-  padding: 0 !important;
-  background: transparent !important;
   border: 1px solid var(--dark) !important;
-  width: 100% !important;
+  background: transparent !important;
+  padding: 0 !important;
   margin: 1rem 0 !important;
+  width: 100% !important;
 }
 
-.custom-navbar a {
-  font-family: 'Cinzel', serif !important;
-  font-weight: 400 !important;
-  text-decoration: none !important;
-  text-transform: capitalize !important;
+#quartz-body .center header nav.custom-navbar a {
   color: var(--dark) !important;
   padding: 0.5rem 1.5rem !important;
   border-right: 1px solid var(--dark) !important;
+  text-decoration: none !important;
 }
 
-.custom-navbar a:last-child {
+#quartz-body .center header nav.custom-navbar a:last-child {
   border-right: none !important;
-}
-
-.custom-navbar a:hover {
-  background-color: var(--lightgray) !important;
 }
