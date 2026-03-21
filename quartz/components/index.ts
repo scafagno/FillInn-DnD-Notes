@@ -21,10 +21,12 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
+import Calendar from "./Calendar"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 
 export {
+  Calendar,
   ArticleTitle,
   Content,
   TagContent,
