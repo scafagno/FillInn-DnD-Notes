@@ -1,3 +1,46 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root[saved-theme="light"],
+:root {
+  --colors-light: #f4e8c1;
+}
+
+h1, h2, h3 { font-family: 'Cinzel', serif; }
+body, p, li { font-family: 'EB Garamond', serif; }
+
+.hero-header { position: relative; margin-bottom: 2rem; }
+.hero-header .hero-image { width: 100%; max-height: 300px; object-fit: cover; }
+.hero-header .hero-text { bottom: 1rem; left: 1rem; color: white; font-weight: bold; }
+
+article.home-grid {
+  display: grid !important;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  width: 100%;
+}
+
+.calendar-widget iframe {
+  border-radius: 8px;
+  width: 100%;
+}
+#quartz-body .center header nav.custom-navbar {
+  display: flex !important;
+  border: 1px solid var(--dark) !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 1rem 0 !important;
+  width: 100% !important;
+}
+
+#quartz-body .center header nav.custom-navbar a {
+  color: var(--dark) !important;
+  padding: 0.5rem 1.5rem !important;
+  border-right: 1px solid var(--dark) !important;
+  text-decoration: none !important;
+}
+
+#quartz-body .center header nav.custom-navbar a:last-child {
+  border-right: none !important;
+}
