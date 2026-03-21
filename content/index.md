@@ -3,7 +3,7 @@ title: "Il Titolo del Sito"
 ---
 
 <div class="hero-header">
-  <img src="/images/hero-placeholder.jpg" alt="Hero Image" class="hero-image"/>
+  <img src="./static/cover.jpg" alt="Hero Image" class="hero-image">
   <div class="hero-text">
     <h3>Il sottotitolo del sito</h3>
   </div>
