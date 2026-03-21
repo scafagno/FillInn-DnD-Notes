@@ -24,38 +24,29 @@ article.home-grid {
   width: 100%;
 }
 .custom-navbar {
-  display: flex;
-  justify-content: flex-start;
-  padding: 0;
-  background: linear-gradient(to bottom, #8b1a1a, #6b1010);
-  border-top: 2px solid #c0392b;
-  border-bottom: 2px solid #c0392b;
-  width: 100%;
+  display: flex !important;
+  justify-content: flex-start !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 1px solid var(--dark) !important;
+  width: 100% !important;
+  margin: 1rem 0 !important;
 }
 
 .custom-navbar a {
-  font-family: 'Cinzel', serif;
-  font-weight: 400;
-  text-decoration: none;
-  text-transform: capitalize;
-  letter-spacing: 0.05em;
-  color: #f4e8c1;
-  padding: 0.5rem 1.5rem;
-  font-size: 0.95rem;
+  font-family: 'Cinzel', serif !important;
+  font-weight: 400 !important;
+  text-decoration: none !important;
+  text-transform: capitalize !important;
+  color: var(--dark) !important;
+  padding: 0.5rem 1.5rem !important;
+  border-right: 1px solid var(--dark) !important;
+}
+
+.custom-navbar a:last-child {
+  border-right: none !important;
 }
 
 .custom-navbar a:hover {
-  background-color: rgba(255, 255, 255, 0.15);
-  color: white;
-}
-
-
-header .custom-navbar {
-  background: linear-gradient(to bottom, #8b1a1a, #6b1010) !important;
-  border-top: 2px solid #c0392b !important;
-  border-bottom: 2px solid #c0392b !important;
-}
-
-header .custom-navbar a {
-  color: #f4e8c1 !important;
+  background-color: var(--lightgray) !important;
 }
