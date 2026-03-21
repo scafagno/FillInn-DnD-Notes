@@ -9,7 +9,7 @@ title: "Il Titolo del Sito"
   </div>
 </div>
 
-<div class="home-grid">
+<div class="home-grid" style="display:grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
   <div class="recent-notes">
     <h2>Ultime Note</h2>
 
