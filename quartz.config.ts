@@ -72,6 +72,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.RecentNotes({ title: "Ultime Note", limit: 3, filter: (f) => f.slug.startsWith("campagne/") }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
