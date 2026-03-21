@@ -27,7 +27,7 @@ import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 
 export {
-  Navbar
+  Navbar,
   Calendar,
   ArticleTitle,
   Content,
