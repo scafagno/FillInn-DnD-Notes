@@ -12,7 +12,7 @@ body, p, li { font-family: 'EB Garamond', serif; }
 .hero-header .hero-image { width: 100%; max-height: 300px; object-fit: cover; }
 .hero-header .hero-text { position: absolute; bottom: 1rem; left: 1rem; color: white; font-weight: bold; }
 
-.home-grid {
+article.home-grid {
   display: grid !important;
   grid-template-columns: 2fr 1fr;
   gap: 2rem;
