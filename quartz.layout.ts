@@ -6,9 +6,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [Component.Navbar()],
   pageBody: [
-    Component.ConditionalRender({
-      component: Component.RecentNotes({ title: "Ultime Note", limit: 3, 
-    }),
+    component: Component.RecentNotes({ title: "Ultime Note", limit: 3 }),
   ],
   afterBody: [Component.Graph()],
   footer: Component.Footer({
