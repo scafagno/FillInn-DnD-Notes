@@ -11,5 +11,4 @@ title: "Il Titolo del Sito"
 
 
 
-<h2>Ultime Note</h2>
 
