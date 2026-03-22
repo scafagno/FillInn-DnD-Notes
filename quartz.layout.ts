@@ -11,12 +11,13 @@ export const sharedPageComponents: SharedLayout = {
       limit : 3
     }),
   ],
-  afterBody:   
-  Component.ConditionalRender({
-    component: Component.Calendar(),
-    condition: (page) => page.fileData.slug === "index",
-  }),
-  [Component.Graph()],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.Calendar(),
+      condition: (page) => page.fileData.slug === "index",
+    }),
+    Component.Graph(),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/scafagno",
