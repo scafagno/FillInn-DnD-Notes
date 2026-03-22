@@ -78,6 +78,6 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [
   Component.RecentNotes({ title: "Ultime Sessioni", limit: 5,
-  filter: (f) => f.slug?.startsWith("Campagne/Sessioni") ?? false })
+  filter: (f) => f.slug?.startsWith("Campagne/") ?? false })
   ],
 }
