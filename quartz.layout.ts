@@ -11,7 +11,12 @@ export const sharedPageComponents: SharedLayout = {
       limit : 3
     }),
   ],
-  afterBody: [Component.Graph()],
+  afterBody:   
+  Component.ConditionalRender({
+    component: Component.Calendar(),
+    condition: (page) => page.fileData.slug === "index",
+  }),
+  [Component.Graph()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/scafagno",
@@ -47,10 +52,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
   Component.ConditionalRender({
-    component: Component.Calendar(),
-    condition: (page) => page.fileData.slug === "index",
-  }),
-  Component.ConditionalRender({
     component: Component.DesktopOnly(Component.TableOfContents()),
     condition: (page) => page.fileData.slug !== "index",
   }),
@@ -58,10 +59,7 @@ export const defaultContentPageLayout: PageLayout = {
     component: Component.Backlinks(),
     condition: (page) => page.fileData.slug !== "index",
   }),
-  Component.RecentNotes({
-    title : 'Recent writing',
-    limit : 3
-  }),
+  Component.RecentNotes({ title: "Ultime Sessioni", limit: 3, filter: (f) => f.slug?.startsWith("Campagne/Sessioni") ?? false })
 ],
 }
 
