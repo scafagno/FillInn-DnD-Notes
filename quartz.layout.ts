@@ -6,9 +6,9 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [Component.Navbar()],
   pageBody: [
-    Component.ConditionalRender({
-      component: Component.RecentNotes({title: "Recent writing"}),
-      condition: (page) => page.fileData.slug == "index" || page.fileData.slug === "",
+    Component.RecentNotes({
+      title : 'Recent writing',
+      limit : 3
     }),
   ],
   afterBody: [Component.Graph()],
