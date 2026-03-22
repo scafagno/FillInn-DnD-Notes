@@ -1,6 +1,5 @@
 ---
 title: "Sessione 22 marzo"
-date: 2026-03-22
 ---
 
 

@@ -5,7 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [Component.Navbar()],
-  beforeBody: [
+  pageBody: [
     Component.ConditionalRender({
       component: Component.RecentNotes(),
       condition: (page) => page.fileData.slug === "index",
