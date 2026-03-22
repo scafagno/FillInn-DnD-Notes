@@ -1,3 +1,2 @@
-# La Compagnia del Fill'Inn
 
-**Qui è dove raccoglieremo le loro gesta**
+**Qui è dove raccoglieremo le gesta degli eroi**
