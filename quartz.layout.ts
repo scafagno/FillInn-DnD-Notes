@@ -5,12 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [Component.Navbar()],
-  pageBody: [
-    Component.RecentNotes({
-      title : 'Recent writing',
-      limit : 3
-    }),
-  ],
+  pageBody: [],
   afterBody: [
     Component.ConditionalRender({
       component: Component.Calendar(),
@@ -60,8 +55,9 @@ export const defaultContentPageLayout: PageLayout = {
     component: Component.Backlinks(),
     condition: (page) => page.fileData.slug !== "index",
   }),
-  Component.RecentNotes({ title: "Ultime Sessioni", limit: 3, filter: (f) => f.slug?.startsWith("Campagne/Sessioni") ?? false })
-],
+  Component.RecentNotes({ title: "Ultime Sessioni", limit: 5, 
+  filter: (f) => f.slug?.startsWith("Campagne/Sessioni") ?? false })
+  ],
 }
 
 // components for pages that display lists of pages (e.g. tags or folders)
@@ -80,5 +76,8 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer(),
   ],
-  right: [],
+  right: [
+  Component.RecentNotes({ title: "Ultime Sessioni", limit: 5,
+  filter: (f) => f.slug?.startsWith("Campagne/Sessioni") ?? false })
+  ],
 }
