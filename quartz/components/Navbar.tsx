@@ -5,7 +5,7 @@ function Navbar() {
       <a href="/FillInn-DnD-Notes/">Home</a>
       <a href="/FillInn-DnD-Notes/Campagne">Campagne</a>
       <a href="/FillInn-DnD-Notes/Personaggi">Personaggi</a>
-      <a href="/FillInn-DnD-Notes/Calendario/calendario">Calendario</a>
+      <a href="/FillInn-DnD-Notes/Calendario">Calendario</a>
       <a href="/FillInn-DnD-Notes/Altro">Altro</a>
     </nav>
   )

@@ -9,7 +9,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.ConditionalRender({
       component: Component.Calendar(),
-      condition: (page) => page.fileData.slug === "index",
+      condition: (page) => page.filData.slug === "index",
     }),
     Component.Graph(),
   ],
