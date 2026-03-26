@@ -1,9 +1,12 @@
 %%Tra parentesi quadre vanno i LINK ad altre pagine (es. se citate un luogo e quel luogo ha una sua apgina sul sito, mettetelo tra quadre)%%
 %%Frasi tra i simboli percentuali sono commenti, non vengono viasualizzati nel sito%%
+
+
+%% questa parte non si vede nel sito ma serve ad organizzare automaticamente le note%%
 ---
-title: Double Trouble  %% questa parte non si vede nel sito ma serve ad organizzare automaticamente le note%%
-target: "[[Alaric Waycrest]]" %%obiettivo missione%%
-locations: [] ##dove si svolge
+title: Double Trouble 
+target: "[[Alaric Waycrest]]" 
+locations: [] 
 tags:
   - quest/pending
 ---

@@ -1,7 +1,9 @@
 %%Tra parentesi quadre vanno i LINK ad altre pagine (es. se citate un luogo e quel luogo ha una sua apgina sul sito, mettetelo tra quadre)%%
 %%Frasi tra i simboli percentuali sono commenti, non vengono viasualizzati nel sito%%
 
----  %% tag utili per l'organizzazione del sito, non escono sul sito%%
+
+%% tag utili per l'organizzazione del sito, non escono sul sito%%
+---  
 title: Alaric Waycrest
 type: pc
 level: "4"
@@ -12,7 +14,7 @@ class:
 subClass:
   - "Battle Master"
   - "Swashbuckler"
-cover: /Assets/Images/Party/alaric.png   %% qui immagine quando ci sarà con il link giusto (roba di Samu)%%
+cover: /Assets/Images/Party/alaric.png  
 tags:
   - race/halfOrc
   - class/fighter
