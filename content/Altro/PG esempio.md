@@ -1,9 +1,4 @@
-%%Tra parentesi quadre vanno i LINK ad altre pagine (es. se citate un luogo e quel luogo ha una sua apgina sul sito, mettetelo tra quadre)%%
-%%Frasi tra i simboli percentuali sono commenti, non vengono viasualizzati nel sito%%
-
-
-%% tag utili per l'organizzazione del sito, non escono sul sito%%
----  
+---
 title: Alaric Waycrest
 type: pc
 level: "4"
@@ -20,6 +15,15 @@ tags:
   - class/fighter
   - class/rogue
 ---
+%% questa parte sopra non si vede nel sito ma serve ad organizzare automaticamente le note%%
+
+
+
+%%Tra parentesi quadre vanno i LINK ad altre pagine (es. se citate un luogo e quel luogo ha una sua apgina sul sito, mettetelo tra quadre)%%
+%%Frasi tra i simboli percentuali sono commenti, non vengono viasualizzati nel sito%%
+
+
+
 
 # Alaric Waycrest
 > 👤 **Player Character** | *"In battle, I find my true purpose"* 

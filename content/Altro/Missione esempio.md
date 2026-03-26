@@ -1,8 +1,3 @@
-%%Tra parentesi quadre vanno i LINK ad altre pagine (es. se citate un luogo e quel luogo ha una sua apgina sul sito, mettetelo tra quadre)%%
-%%Frasi tra i simboli percentuali sono commenti, non vengono viasualizzati nel sito%%
-
-
-%% questa parte non si vede nel sito ma serve ad organizzare automaticamente le note%%
 ---
 title: Double Trouble 
 target: "[[Alaric Waycrest]]" 
@@ -10,12 +5,22 @@ locations: []
 tags:
   - quest/pending
 ---
+%% questa parte sopra non si vede nel sito ma serve ad organizzare automaticamente le note%%
+
+
+
+
+
+%%Tra parentesi quadre vanno i LINK ad altre pagine (es. se citate un luogo e quel luogo ha una sua apgina sul sito, mettetelo tra quadre)%%
+%%Frasi tra i simboli percentuali sono commenti, non vengono viasualizzati nel sito%%
+
+
 
 # Double Trouble %% Titolo missione %%
 > [!info] Quest Pending   %%info di missione, in questo caso ancora in corso%%
 > Questa missione è attualmente in attesa di risoluzione.
 
----
+--- %% questa parte non si vede nel sito ma serve ad organizzare automaticamente le note%%
 
 ![[quest.png]] %%immagine, ignorate, al momento non c'è%%
 
