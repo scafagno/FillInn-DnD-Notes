@@ -1,30 +1,26 @@
 ---
-type: quest
+title: Double Trouble
 target: "[[Alaric Waycrest]]"
-locations:
-- 
+locations: []
 tags:
-- quest/pending
+  - quest/pending
 ---
-###### Double Trouble
-<span class="sub2">:FasCircleExclamation: Quest &nbsp; | &nbsp; :FasListCheck: Pending </span>
-___
 
-> [!quote|no-t]
->![[quest.png|right wm-sm]] Is a dark secret is being kept from the group...?
+# Double Trouble
+> [!info] Quest Pending
+> Questa missione è attualmente in attesa di risoluzione.
 
-> [!column|flex 3]
->> [!note]- HISTORY
->> ```base
->> properties:
->>   file.name:
->>     displayName: Name
->> views:
->>   - type: table
->>     name: Session Notes
->>     filters:
->>       and:
->>         - file.inFolder("Session Notes")
->>         - file.hasLink(this.file)
->> ```
+---
 
+![[quest.png]]
+
+> [!quote] 
+> Un oscuro segreto sta per essere rivelato al gruppo...?
+
+### Storia e Note di Sessione
+Poiché Quartz non può eseguire query dinamiche (Dataview), ti consiglio di elencare i collegamenti manualmente o di usare un elenco puntato semplice che Quartz trasformerà in link cliccabili:
+
+* [[2024-03-20 - Sessione 12]]
+* [[2024-03-27 - Sessione 13]]
+
+---
